@@ -1,0 +1,37 @@
+&NAMDPARA
+  EMIN       = 2.0
+  EMAX       = 3.0
+  NQX        = 24
+  NQY        = 24
+  NQZ        = 1
+
+  NSW        = 400
+  POTIM      = 1.0
+  TEMP       = 10.0
+
+  NSAMPLE    = 1
+  NELM       = 100
+  NTRAJ      = 10000
+  LHOLE      = .F.
+
+  NPARTS     = 1
+  SIGMA      = 0.01
+  LHDF5      = .T.
+  EPMDIR     = './'
+  EPMPREF    = 'a'
+  NAMDDIR    = 'output'
+  LTRANS     = 'L'
+
+  LEF        = .F.
+  EFTYPE     = 'const'
+  EFX        = 0.0
+  EFY        = 0.0
+  EFZ        = 0.0
+  EFSTART    = 0
+  EFTIME     = 100000000
+
+  BANDDEG    = 1
+  LEPCSHM    = .T.
+  LPHSHM     = .F.
+  LSPLIT     = .F.
+/

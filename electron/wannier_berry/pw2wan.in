@@ -1,0 +1,13 @@
+&inputpp
+  outdir='./tmp'
+  prefix = 'MoS2'
+  seedname = 'MoS2'
+  spin_component = 'none'
+  write_mmn = .true.
+  write_amn = .true.
+  write_unk = .false.
+  write_spn = .true.
+  write_uHu = .true.
+  write_uIu = .true.
+  spn_formatted = .true.
+/

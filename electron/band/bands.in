@@ -1,0 +1,8 @@
+&bands
+prefix = 'MoS2'
+outdir = 'tmp'
+filband = 'band.dat'
+lsigma(3) = .true.
+lp = .true.
+/
+

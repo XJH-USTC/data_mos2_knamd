@@ -1,0 +1,4 @@
+#!/public/apps/anaconda/anaconda3/2023.03/bin/python
+if __name__ == '__main__':
+    from SurfHop import SurfHop
+    SurfHop()

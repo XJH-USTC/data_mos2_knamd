@@ -1,0 +1,11 @@
+&perturbo
+ prefix = 'MoS2'
+ calc_mode = 'ephmat'
+ fklist = 'eph.kpt'
+ fqlist = 'eph.qpt'
+
+ band_min = 15
+ band_max = 16
+
+ phfreq_cutoff = 4   !meV
+/

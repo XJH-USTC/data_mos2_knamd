@@ -1,0 +1,37 @@
+&NAMDPARA
+  EMIN       = -5
+  EMAX       = -3.69
+  NQX        = 150
+  NQY        = 150
+  NQZ        = 1
+
+  NSW        = 8000
+  POTIM      = 1.0
+  TEMP       = 300.0
+
+  NSAMPLE    = 1
+  NELM       = 200
+  NTRAJ      = 3000
+  LHOLE      = .F.
+
+  NPARTS     = 3648
+  SIGMA      = 0.025
+  LHDF5      = .T.
+  EPMDIR     = '../h5files'
+  EPMPREF    = 'MoS2'
+  NAMDDIR    = 'output300K8000fs_n3000'
+  LTRANS     = 'L'
+
+  LEF        = .F.
+  EFTYPE     = 'const'
+  EFX        = 0.0
+  EFY        = 0.0
+  EFZ        = 0.0
+  EFSTART    = 0
+  EFTIME     = 0
+
+  BANDDEG    = 1
+  LEPCSHM    = .F.
+  LPHSHM     = .F.
+  LSPLIT     = .F.
+/

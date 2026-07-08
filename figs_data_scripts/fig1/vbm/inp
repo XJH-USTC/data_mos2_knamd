@@ -1,0 +1,41 @@
+&NAMDPARA
+  BMIN       = 1
+  BMAX       = 2
+  EMIN       = -6.400000
+  EMAX       = -5.000000
+  NBANDS     = 2
+  NKPOINTS   = 22500
+  Np         = 22500
+
+  NSW        = 3000
+  POTIM      = 1.0
+  TEMP       = 300.0
+
+  NSAMPLE    = 1
+  NAMDTIME   = 3000.0
+  NELM       = 200
+  NTRAJ      = 5000
+  LHOLE      = .T.
+
+  LEPC       = .T.
+  LSORT      = .F.
+  EPCTYPE    = 1
+  NPARTS     = 3648
+  SIGMA      = 0.025
+  LHDF5      = .T.
+  EPMDIR     = '../../h5files'
+  EPMPREF    = 'MoS2'
+  LEF        = .F.
+
+  EFTYPE     = 'const'
+  EFX        = 0.000000
+  EFY        = 0.000000
+  EFZ        = 0.000000
+  EFSTART    = 0
+  EFTIME     = 0
+
+  BANDDEG    = 1
+  LEPCSHM    = .F.
+  LPHSHM     = .F.
+  LSPLIT     = .F.
+/

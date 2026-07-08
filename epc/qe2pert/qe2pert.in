@@ -1,0 +1,12 @@
+&qe2pert
+ prefix='MoS2'
+ outdir='./tmp'
+ phdir='../phonon/save'
+ nk1=12, nk2=12, nk3=1
+ dft_band_min = 13
+ dft_band_max = 34
+ num_wann = 22
+ lwannier=.true.
+ load_ephmat = .false.
+ system_2d = .true.
+/ 

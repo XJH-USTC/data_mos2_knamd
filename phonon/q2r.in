@@ -1,0 +1,5 @@
+&input
+  fildyn = 'MoS2.dyn.xml'
+  zasr = 'zero-dim'
+  flfrc = 'MoS2.fc'
+/
